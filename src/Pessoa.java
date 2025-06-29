@@ -7,6 +7,8 @@ public class Pessoa {
     public Pessoa(String nome, String idade){
         this.nome = nome;
         this.idade = idade;
+
+        System.out.println("Iniciando classe Pessoa ...");
     }
 
     public void pintNascimento(){
