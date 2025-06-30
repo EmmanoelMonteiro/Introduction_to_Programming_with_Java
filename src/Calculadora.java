@@ -24,7 +24,7 @@ public class Calculadora {
             System.out.println("Erro: Divisão por zero!");
             return Double.NaN; // Retorna "Not a Number"
         }
-        return a / b;
+        return (a / b);
     }
 
     // Método main para testar a calculadora
