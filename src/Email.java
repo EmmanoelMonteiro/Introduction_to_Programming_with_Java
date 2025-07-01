@@ -36,11 +36,11 @@ public class Email {
         this.mensagem = mensagem;
     }
 
-    public void Send(){
+    public void send(){
         System.out.println("Enviando o e-mal ...");
     }
 
-    public void Receiving(){
+    public void receiving(){
         System.out.println("Recebendo o e-mal ...");
     }
 
@@ -67,8 +67,8 @@ public class Email {
         email.mensagem = "Estou precisando falar com você ....";
 
         email.bildMensager();
-        email.Send();
-        email.Receiving();
+        email.send();
+        email.receiving();
     }
 
 }
